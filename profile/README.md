@@ -37,4 +37,4 @@ learning a pipeline DSL. A binary and a SQLite file on a box you already pay for
 - **Why it gates on the check suite** — [ADR 005](https://docs.openpreflight.xyz/adr/005-check-suite-gating/)
 - **Security policy** — [SECURITY.md](https://github.com/openpreflight/openpreflight/blob/main/SECURITY.md)
 
-MIT licensed.
+Apache-2.0 licensed.
