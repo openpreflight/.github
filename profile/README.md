@@ -32,8 +32,10 @@ learning a pipeline DSL. A binary and a SQLite file on a box you already pay for
 
 ### Links
 
+- **Site** — [openpreflight.xyz](https://openpreflight.xyz)
 - **Docs** — [docs.openpreflight.xyz](https://docs.openpreflight.xyz)
 - **Quickstart** — [docs.openpreflight.xyz/start/quickstart](https://docs.openpreflight.xyz/start/quickstart/)
+- **Pipelines** — [docs.openpreflight.xyz/using/pipelines](https://docs.openpreflight.xyz/using/pipelines/)
 - **Why it gates on the check suite** — [ADR 005](https://docs.openpreflight.xyz/adr/005-check-suite-gating/)
 - **Security policy** — [SECURITY.md](https://github.com/openpreflight/openpreflight/blob/main/SECURITY.md)
 
