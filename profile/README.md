@@ -1,9 +1,16 @@
-## openpreflight
+<div align="center">
 
-A small CI provider for private repos: one Go binary that is both a
-**configurator** (add GitHub Apps and repo bindings in a web UI or over JSON)
-and a **worker** (receive webhooks, run install/test/build on the exact commit,
-report one Check Run with full logs).
+<img src="https://openpreflight.xyz/apple-touch-icon.png" alt="openpreflight" width="72" height="72" />
+
+# openpreflight
+
+**A small CI provider for private repos.**
+
+One Go binary · one SQLite file · one Check Run per commit
+
+[Website](https://openpreflight.xyz) · [Docs](https://docs.openpreflight.xyz) · [Quickstart](https://docs.openpreflight.xyz/start/quickstart/) · [Source](https://github.com/openpreflight/openpreflight)
+
+<br />
 
 ```text
 openpreflight
@@ -17,26 +24,25 @@ Passed in 42s
 View full logs →
 ```
 
-It is the smallest useful version of GitHub-native CI — a self-hosted Check Runs
-runner for teams that want CI on their own server, without Actions and without
-learning a pipeline DSL. A binary and a SQLite file on a box you already pay for.
+</div>
 
-### Repositories
+Self-hosted GitHub Check Runs CI you run yourself. Register a GitHub App, enable your repos, and get full logs on your server — without Actions and without learning a pipeline DSL.
 
-| Repo | What it is |
-|---|---|
-| [openpreflight](https://github.com/openpreflight/openpreflight) | The Go binary — configurator and worker |
-| [docs](https://github.com/openpreflight/docs) | Astro Starlight site → [docs.openpreflight.xyz](https://docs.openpreflight.xyz) |
-| [website](https://github.com/openpreflight/website) | Marketing site → [openpreflight.xyz](https://openpreflight.xyz) |
-| [.github](https://github.com/openpreflight/.github) | This landing page |
+## Repositories
 
-### Links
+| Repo | Role |
+| --- | --- |
+| [**openpreflight**](https://github.com/openpreflight/openpreflight) | Go binary — configurator and worker |
+| [**docs**](https://github.com/openpreflight/docs) | Reference docs → [docs.openpreflight.xyz](https://docs.openpreflight.xyz) |
+| [**website**](https://github.com/openpreflight/website) | Marketing → [openpreflight.xyz](https://openpreflight.xyz) |
+| [**.github**](https://github.com/openpreflight/.github) | This org profile |
 
-- **Site** — [openpreflight.xyz](https://openpreflight.xyz)
-- **Docs** — [docs.openpreflight.xyz](https://docs.openpreflight.xyz)
-- **Quickstart** — [docs.openpreflight.xyz/start/quickstart](https://docs.openpreflight.xyz/start/quickstart/)
-- **Pipelines** — [docs.openpreflight.xyz/using/pipelines](https://docs.openpreflight.xyz/using/pipelines/)
-- **Why it gates on the check suite** — [ADR 005](https://docs.openpreflight.xyz/adr/005-check-suite-gating/)
-- **Security policy** — [SECURITY.md](https://github.com/openpreflight/openpreflight/blob/main/SECURITY.md)
+## Start here
+
+- [Quickstart](https://docs.openpreflight.xyz/start/quickstart/) — binary, first-boot wizard, GitHub App
+- [Pipelines](https://docs.openpreflight.xyz/using/pipelines/) — `.ci.yml`, `runtime:`, defaults
+- [ADR 005](https://docs.openpreflight.xyz/adr/005-check-suite-gating/) — why runs gate on the check suite
+- [Security model](https://docs.openpreflight.xyz/understanding/security-model/) — HMAC, encryption, trust boundaries
+- [llms.txt](https://openpreflight.xyz/llms.txt) — curated index for agents
 
 Apache-2.0 licensed.

@@ -1,8 +1,7 @@
 # .github
 
-The `openpreflight` organization profile. GitHub renders
-[profile/README.md](profile/README.md) on
-[github.com/openpreflight](https://github.com/openpreflight) — that file is the
-only thing this repository is for.
+Organization profile for [openpreflight](https://github.com/openpreflight).
 
-Keep the repository **public**; a private `.github` repo renders nothing.
+GitHub renders [`profile/README.md`](profile/README.md) on the org home page. That file is the only content this repository exists to publish.
+
+Keep the repository **public** — a private `.github` repo renders nothing.
