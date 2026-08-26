@@ -28,7 +28,7 @@ Be straightforward and be civil. Argue about the code, not the person.
 
 ## Reporting
 
-Email **conduct@openpreflight.xyz**. Reports are read by the maintainer only.
+Email **security@openpreflight.xyz**. Reports are read by the maintainer only.
 Include links to the relevant threads. You will get a reply.
 
 Do not open a public issue about someone's conduct — that makes it worse for

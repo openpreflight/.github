@@ -37,6 +37,13 @@ A small CI provider for private repos. One Go binary, one SQLite file: register 
 | [**website**](https://github.com/openpreflight/website) | Marketing → [openpreflight.xyz](https://openpreflight.xyz) |
 | [**.github**](https://github.com/openpreflight/.github) | This org profile |
 
+## Maintainer
+
+[@trivedi-vatsal](https://github.com/trivedi-vatsal). Security reports go to
+**security@openpreflight.xyz** or through
+[GitHub Security Advisories](https://github.com/openpreflight/openpreflight/security/advisories/new),
+not to a public issue.
+
 ## Start here
 
 - [Quickstart](https://docs.openpreflight.xyz/start/quickstart/) — binary, first-boot wizard, GitHub App
