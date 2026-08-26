@@ -26,7 +26,7 @@ View full logs →
 
 </div>
 
-Self-hosted GitHub Check Runs CI you run yourself. Register a GitHub App, enable your repos, and get full logs on your server — without Actions and without learning a pipeline DSL.
+A small CI provider for private repos. One Go binary, one SQLite file: register a GitHub App, enable your repos, and get one Check Run per commit.
 
 ## Repositories
 
