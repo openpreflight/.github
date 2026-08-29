@@ -28,6 +28,8 @@ View full logs →
 
 A small CI provider for private repos. One Go binary, one SQLite file: register a GitHub App, enable your repos, and get one Check Run per commit.
 
+**v1.0.0** is released (29 August 2026). [GitHub Release](https://github.com/openpreflight/openpreflight/releases/tag/v1.0.0) · [Changelog](https://github.com/openpreflight/openpreflight/blob/v1.0.0/CHANGELOG.md)
+
 ## Repositories
 
 | Repo | Role |
