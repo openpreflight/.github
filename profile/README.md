@@ -8,21 +8,7 @@
 
 One Go binary · one SQLite file · one Check Run per commit
 
-[Website](https://openpreflight.xyz) · [Docs](https://docs.openpreflight.xyz) · [Quickstart](https://docs.openpreflight.xyz/start/quickstart/) · [Source](https://github.com/openpreflight/openpreflight)
-
-<br />
-
-```text
-openpreflight
-────────────────────
-✓ install    8s
-✓ test      21s
-✓ build     13s
-
-Passed in 42s
-
-View full logs →
-```
+[Website](https://openpreflight.xyz) · [Docs](https://docs.openpreflight.xyz) · [Quickstart](https://docs.openpreflight.xyz/getting-started/quickstart/) · [Source](https://github.com/openpreflight/openpreflight)
 
 </div>
 
