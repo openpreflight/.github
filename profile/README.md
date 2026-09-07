@@ -28,7 +28,7 @@ View full logs →
 
 A small CI provider for private repos. One Go binary, one SQLite file: register a GitHub App, enable your repos, and get one Check Run per commit.
 
-**v2.0.0** is released (2 September 2026). [GitHub Release](https://github.com/openpreflight/openpreflight/releases/tag/v2.0.0) · [Changelog](https://github.com/openpreflight/openpreflight/blob/v2.0.0/CHANGELOG.md)
+**v2.1.2** is released (7 September 2026). [GitHub Release](https://github.com/openpreflight/openpreflight/releases/tag/v2.1.2) · [Changelog](https://github.com/openpreflight/openpreflight/blob/v2.1.2/CHANGELOG.md)
 
 ## Repositories
 
@@ -48,10 +48,10 @@ not to a public issue.
 
 ## Start here
 
-- [Quickstart](https://docs.openpreflight.xyz/start/quickstart/) — binary, first-boot wizard, GitHub App
-- [Pipelines](https://docs.openpreflight.xyz/using/pipelines/) — `.ci.yml`, `runtime:`, defaults
-- [ADR 005](https://docs.openpreflight.xyz/adr/005-check-suite-gating/) — why runs gate on the check suite
-- [Security model](https://docs.openpreflight.xyz/understanding/security-model/) — HMAC, encryption, trust boundaries
+- [Quickstart](https://docs.openpreflight.xyz/getting-started/quickstart/) — binary, first-boot wizard, GitHub App
+- [Pipelines](https://docs.openpreflight.xyz/use/pipelines/) — `.ci.yml`, `runtime:`, defaults
+- [ADR 005](https://docs.openpreflight.xyz/reference/decisions/005-check-suite-gating/) — why runs gate on the check suite
+- [Security model](https://docs.openpreflight.xyz/reference/security-model/) — HMAC, encryption, trust boundaries
 - [llms.txt](https://openpreflight.xyz/llms.txt) — curated index for agents
 
 Apache-2.0 licensed.
