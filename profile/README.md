@@ -14,7 +14,7 @@ One Go binary · one SQLite file · one Check Run per commit
 
 A small CI provider for private repos. One Go binary, one SQLite file: register a GitHub App, enable your repos, and get one Check Run per commit.
 
-**v2.1.2** is released (7 September 2026). [GitHub Release](https://github.com/openpreflight/openpreflight/releases/tag/v2.1.2) · [Changelog](https://github.com/openpreflight/openpreflight/blob/v2.1.2/CHANGELOG.md)
+**v2.1.3** is released (9 September 2026). [GitHub Release](https://github.com/openpreflight/openpreflight/releases/tag/v2.1.3) · [Changelog](https://github.com/openpreflight/openpreflight/blob/v2.1.3/CHANGELOG.md)
 
 ## Repositories
 
